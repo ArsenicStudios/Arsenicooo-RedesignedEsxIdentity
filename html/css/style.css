@@ -1,0 +1,90 @@
+.none {
+    display: ;
+}
+
+body {
+    background-image: url("../src/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.blur {
+    height: 100vh;
+    background-color: #464646b3;
+}
+
+h1 {
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    color: #ffffff;
+    width: 93%;
+    text-align: center;
+}
+
+.middlepage {
+    height: 90vh;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create {
+    display: none;
+}
+
+.formdown {
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.dialog {
+    opacity: 0.95;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: #ffffff;
+}
+
+td {
+    border: 1px;
+    text-align: left;
+    padding: 8px;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
